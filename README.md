@@ -1,12 +1,12 @@
-#✅ Whatsapp Clone React & Supabase
+# ✅ Whatsapp Clone React & Supabase
 ![image](https://res.cloudinary.com/dqd5x0s7w/image/upload/v1675480454/github/wp-main_vztiqu.png)
 
 ## 🚀DEMO
- [Deploy]()
+ [Deploy](https://whatsapp-clone-garu2.vercel.app/)
  
 ## 💻Tutorial
 <a href='https://youtu.be/' target='_blank'>
-    <img width='30%' src='https://img.youtube.com/vi/mqdefault.jpg' alt='Tweet Generator' />
+    <img width='30%' src='https://img.youtube.com/vi/mqdefault.jpg' alt='WhatsApp Clone React & Supabase' />
 </a>
 
 ## 📦Getting Started
