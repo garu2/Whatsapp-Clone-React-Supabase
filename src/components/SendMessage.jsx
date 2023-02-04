@@ -9,7 +9,6 @@ const SendMessage = ({ scroll }) => {
     const sendMessage = async (e) => {
         e.preventDefault();
         if (newMessage !== "") {
-            //console.log('message: ', newMessage);
             const insert = await supabase.from('messages').insert({ 
                 content: newMessage,
                 email: user
@@ -21,7 +20,6 @@ const SendMessage = ({ scroll }) => {
     }
     const getSeccion = async () => {
         const {data} = await supabase.auth.getSession();
-        //console.log('secion33: ', data.session.user.email);
         setUser(data.session.user.email);
     }
     useEffect( () =>{

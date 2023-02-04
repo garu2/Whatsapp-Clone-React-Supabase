@@ -1,20 +1,19 @@
 import { supabase } from "../supabaseClient";
 import { useEffect, useRef, useState } from 'react'
+
 import Message from "./Message";
 import SendMessage from "./SendMessage";
 import Header from "./Header";
 
-//import {useChatScroll} from "../hooks/useChatScroll"
 const Messages = () => {
     const [messages, setMessages] = useState([]);
     const scroll = useRef();
-    //const ref = useChatScroll(messages)
 
     const callSupabase = async () => {
         const {data} = await supabase.from('messages').select('*')
         setMessages(data);
     }
-    useEffect( () =>{
+    useEffect( () => {
         callSupabase()
     }, [])
     
@@ -45,8 +44,6 @@ const Messages = () => {
                 ))
             }
             </div>
-            
-            <br />
             <SendMessage scroll={scroll}/>
             <span ref={scroll}></span>
         </section>

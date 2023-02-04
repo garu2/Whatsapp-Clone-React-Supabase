@@ -3,7 +3,6 @@
 
   max-width: 600px;
   margin: 0 auto;
-  /* padding: 30px; */
   border-radius: 10px;
   margin-top: 50px;
 
@@ -61,7 +60,7 @@ button {
 }
 
 .login {
-  background: url(./bg-login2.png),#FCF4EC00;
+  background: url(./bg-login.png),#FCF4EC00;
   height: 400px;
   width: 100%;
   background-repeat: no-repeat; 
@@ -74,38 +73,11 @@ button {
   transition: 1.5s;
 }
 .login:hover {
-  /* animation: 10s  bgcolor; */
-  background: url(./bg-login2.png),#FCF4EC;
+  background: url(./bg-login.png),#FCF4EC;
   background-repeat: no-repeat; 
   background-size: cover;
 }
-@keyframes bgcolor {
-  0%{
-    background: url(./bg-login2.png), #FCF4EC;
-    background-size: cover;
-  }
-  20%{
-    background: url(./bg-login2.png), #ffc1077a;
-    background-size: cover;
-  }
-  40%{
-    background: url(./bg-login2.png), #ff990091;
-    background-size: cover;
-  }
-  60%{
-    background: url(./bg-login2.png), #acf855c1;
-    background-size: cover;
-  }
-  80%{
-    background: url(./bg-login2.png), #03a8f4c2;
-    background-size: cover;
-  }
-  100%{
-    background: url(./bg-login2.png), #8154cec9;
-    background-size: cover;
-  }
 
-}
 .login button {
   margin-bottom: 50px;
   background-color: #48C658;
@@ -126,7 +98,7 @@ button {
 }
 
 .messages {
-  background: url(./bg-chat2.png),#FCF4EC;
+  background: url(./bg-chat.png),#FCF4EC;
   width: 100%;
   background-size: contain;
   border-radius: 10px;
@@ -285,4 +257,19 @@ button {
 ::-webkit-scrollbar-thumb {
   background: #008169;
   border-radius: 15px;
+}
+
+/* author */
+p.author {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  gap: 7px;
+  position: relative;
+  color: #fff;
+}
+p.author a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #fff;
 }

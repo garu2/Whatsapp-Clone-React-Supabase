@@ -13,7 +13,6 @@ const Login = () => {
 
     return (
         <section className="login">
-            {/* <button onClick={handleLogout}>Cerrar secion</button> */}
             <button onClick={handleLogin}>Iniciar </button>
         </section>
     );

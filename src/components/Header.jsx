@@ -9,11 +9,9 @@ import { getAvatarN } from "../helpers/getAvatarN";
 const Header = () => {
     const [user, setUser] = useState("juan")
     const [open, setOpen] = useState(false)
-    //const avatarNumber = Math.floor(Math.random() * 10);
     
     const getSeccion = async () => {
         const {data} = await supabase.auth.getSession();
-        //console.log('secion33: ', data.session.user.email);
         setUser(data.session.user.email);
     }
     useEffect( () =>{
