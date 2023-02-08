@@ -5,8 +5,8 @@
  [Deploy](https://whatsapp-clone-garu2.vercel.app/)
  
 ## 💻Tutorial
-<a href='https://youtu.be/' target='_blank'>
-    <img width='30%' src='https://img.youtube.com/vi/mqdefault.jpg' alt='WhatsApp Clone React & Supabase' />
+<a href='https://youtu.be/P7dGzc8SwqY' target='_blank'>
+    <img width='30%' src='https://img.youtube.com/vi/P7dGzc8SwqY/mqdefault.jpg' alt='whatsapp clone' />
 </a>
 
 ## 📦Getting Started

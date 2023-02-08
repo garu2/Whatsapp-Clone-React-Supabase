@@ -73,7 +73,7 @@ button {
   transition: 1.5s;
 }
 .login:hover {
-  background: url(./bg-login.png),#FCF4EC;
+  background: url(/bg-login.png),#FCF4EC;
   background-repeat: no-repeat; 
   background-size: cover;
 }
@@ -98,7 +98,7 @@ button {
 }
 
 .messages {
-  background: url(./bg-chat.png),#FCF4EC;
+  background: url(/bg-chat.png),#FCF4EC;
   width: 100%;
   background-size: contain;
   border-radius: 10px;
