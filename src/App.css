@@ -60,7 +60,7 @@ button {
 }
 
 .login {
-  background: url(./bg-login.png),#FCF4EC00;
+  background: url(/bg-login.png),#FCF4EC00;
   height: 400px;
   width: 100%;
   background-repeat: no-repeat; 
